@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background: #000;
+}
+.container {
+    width: 390px;
+    height: 1000px;
+    background: #999999;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    height: 50px;
+    background: #999999;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.page-selector {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: Anton;
+    font-size: 20px;
+    gap: 50px;
+}
+.topic {
+    display: flex;
+    justify-content: center;
+    font-family: Anton;
+    font-size: 38px;
+    color: aqua;
+    font-weight: 600;
+    background: blue;
+}
+.input-box {
+    width: 100%;
+    height: 190px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.input {
+    color: white;
+    font-size: 22px;
+    font-family: Anton;
+    margin-top: 10px;
+}
+.name {
+    width: 210px;
+    height: 35px;
+    position: absolute;
+    top: 70px;
+}
+.search {
+    height: 30px;
+    width: 120px;
+    position: absolute;
+    top: 130px;
+    font-weight: 700;
+}
