@@ -2,6 +2,9 @@ body {
     margin: 0;
     background: #000;
 }
+* {
+    text-decoration: none;
+}
 .container {
     width: 390px;
     height: 1000px;

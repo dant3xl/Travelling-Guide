@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    background: #000;
+}
+* {
+    text-decoration: none;
+}
+.container {
+    width: 390px;
+    height: 2500px;
+    background: #999999;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    height: 50px;
+    background: #999999;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.turn-back {
+    width: 100px;
+    font-family: Anton;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.topic {
+    display: flex;
+    justify-content: center;
+    font-family: Anton;
+    font-size: 38px;
+    color: aqua;
+    font-weight: 600;
+    background: blue;
+}
+.booking-topic {
+    display: flex;
+    justify-content: center;
+    font-family: Anton;
+    font-size: 26px;
+    color: blue;
+    font-weight: 400;
+    background: aqua;
+}
+.booking-list {
+    background: green;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.place {
+    height: 300px;
+    width: 350px;
+    background: red;
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    border-radius: 5%;
+}
+img {
+    width: 160px;
+    height: 200px;
+    border-radius: 20%;
+    background: white;
+}
+.img {
+    width: 160px;
+    height: 200px;
+    align-self: center;
+    margin-left: 10px;
+}
+.tittle {
+    position: absolute;
+    right: 60px;
+    top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Anton;
+}
+.description {
+    width: 140px;
+    height: 250px;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    font-size: 15px;
+}
+.weather-topic {
+    display: flex;
+    justify-content: center;
+    font-family: Anton;
+    font-size: 26px;
+    color: blue;
+    font-weight: 400;
+    background: aqua;
+}
+.weather-list {
+    background: yellow;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.day {
+    height: 300px;
+    width: 350px;
+    position: relative;
+    background: purple;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5%;
+    justify-content: center;
+}
+.name {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Anton;
+    position: absolute;
+    top: 15px;
+}
+.content {
+    font-size: 18px;
+    font-weight: 200;
+    font-family: Anton;
+    margin-top: 15px;
+}
+.action-topic {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Anton;
+    font-size: 26px;
+    color: blue;
+    font-weight: 400;
+    background: aqua;
+}
+.filling {
+    background: orange;
+    width: 100%;
+    height: 513px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text {
+    margin-top: 10px;
+    font-size: 19px;
+    width: 350px;
+    color: white;
+}
